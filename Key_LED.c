@@ -2,9 +2,9 @@
 	Filename:			Key_LED.c
 	Author:				Corey Davyduke
 	Creation date:		2011-12-07
-	Last modified date:	2011-12-07
+	Last modified date:	2011-12-08
 	Description:		This file contains the source code to blink
-	an LED, reead the keypad, and write to the LCD.
+	an LED, read the keypad, and write to the LCD.
 	=================================================================
 */
 

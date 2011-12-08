@@ -26,10 +26,11 @@ Boston, MA 02111-1307, USA.  */
 MEMORY
 {
   page0 (rwx) : ORIGIN = 0x0, LENGTH = 256
-  text  (rx)  : ORIGIN = 0x2400, LENGTH = 768
+  text  (rx)  : ORIGIN = 0x2400, LENGTH = 1024
   data        : ORIGIN = 0x2800, LENGTH = 512
   eeprom      : ORIGIN = 0xb600, LENGTH = 512
 }
 
 /* Setup the stack on the top of the data internal ram (not used).  */
 PROVIDE (_stack = 0x2800-1);
+PROVIDE (_io_ports = 0x1000);
