@@ -71,7 +71,7 @@
  *      SCI_JMP = JMP_OP_CODE;
  *      SCI_VEC =  sci_isr;
  *
- * where sci_isr() is the SCI interupt service routine:
+ * where sci_isr() is the SCI interrupt service routine:
  *
  *      #pragma interrupt_handler sci_isr
  *      void sci_isr(void)
